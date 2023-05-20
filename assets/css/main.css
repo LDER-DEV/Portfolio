@@ -2262,7 +2262,12 @@ input, select, textarea {
 	dl {
 		margin: 0 0 2.25em 0;
 	}
-
+.mongodb{
+	width:150px;
+}
+.skills{
+	display:flex;
+}
 /* Actions */
 
 	ul.actions {
@@ -2757,6 +2762,10 @@ input, select, textarea {
 				display: block;
 				margin: 0 auto 2.25em auto;
 				width: 8em;
+				overflow: hidden;
+			}
+			.headshot{
+				width:100px;
 			}
 
 			#header > header h1 {
