@@ -2201,14 +2201,16 @@ input, select, textarea {
 			}
 
 		.image.avatar {
+			height:150px;
 			border-radius: 100%;
 			overflow: hidden;
+			border: 5px double white
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
-				display: block;
-				width: 100%;
+				width: 100%; /* Make the image fill its container */
+				height: 100%; /* Make the image fill its container */
+				object-fit: cover;
 			}
 
 		.image.main {
